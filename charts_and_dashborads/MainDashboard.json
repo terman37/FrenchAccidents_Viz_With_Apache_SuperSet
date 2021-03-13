@@ -1,0 +1,615 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "French accidents involving kids in 2019",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{\\\"559\\\": {\\\"age_cat\\\": [\\\"0-14\\\", \\\"14-18\\\"]}}\", \"color_scheme\": null, \"filter_scopes\": {\"559\": {\"age_cat\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"gravity\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"departement\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}, \"remote_id\": 15}",
+                "position_json": "{\"CHART-ASIQdztcwa\":{\"children\":[],\"id\":\"CHART-ASIQdztcwa\",\"meta\":{\"chartId\":475,\"height\":55,\"sliceName\":\"HeatMap_DayHour\",\"sliceNameOverride\":\"When does it happen ?\",\"uuid\":\"e6a8199b-e2c7-4273-95bd-0f915ffff63b\",\"width\":5},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-GRDS9jrEA\"],\"type\":\"CHART\"},\"CHART-Dokrng1ROE\":{\"children\":[],\"id\":\"CHART-Dokrng1ROE\",\"meta\":{\"chartId\":560,\"height\":54,\"sliceName\":\"RoleContribution\",\"sliceNameOverride\":\"What is people profile ?\",\"uuid\":\"fc5c05d1-fa7a-439f-b3d5-d878f41aa7bc\",\"width\":7},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-GRDS9jrEA\"],\"type\":\"CHART\"},\"CHART-K-j5m4aOlD\":{\"children\":[],\"id\":\"CHART-K-j5m4aOlD\",\"meta\":{\"chartId\":471,\"height\":46,\"sliceName\":\"Accident_Map\",\"sliceNameOverride\":\"Where does it happen ?\",\"uuid\":\"0e1d325d-83b4-4865-aca5-d5ac71842919\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-JBGQkkCNqB\"],\"type\":\"CHART\"},\"CHART-MpWYbfjlJy\":{\"children\":[],\"id\":\"CHART-MpWYbfjlJy\",\"meta\":{\"chartId\":563,\"height\":46,\"sliceName\":\"PieRoadCat\",\"sliceNameOverride\":\"How is the road ?\",\"uuid\":\"5ca801fc-0e0c-4813-89b6-0b88848c1e3f\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-JBGQkkCNqB\"],\"type\":\"CHART\"},\"CHART-UjSRHhcalP\":{\"children\":[],\"id\":\"CHART-UjSRHhcalP\",\"meta\":{\"chartId\":557,\"height\":25,\"sliceName\":\"Gravity Table\",\"sliceNameOverride\":\"How serious is it ?\",\"uuid\":\"6cd53311-9a0b-4ab2-b009-50a8be3af782\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-JBGQkkCNqB\",\"COLUMN-Kbltb6Wcs5\"],\"type\":\"CHART\"},\"CHART-h7s60N3Tmr\":{\"children\":[],\"id\":\"CHART-h7s60N3Tmr\",\"meta\":{\"chartId\":559,\"height\":46,\"sliceName\":\"FilterBox\",\"sliceNameOverride\":\"Filters\",\"uuid\":\"eca54c24-6958-46c1-b29e-e226ddf6c2ac\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-JBGQkkCNqB\",\"COLUMN-tjC1N00wnq\"],\"type\":\"CHART\"},\"CHART-has5jVHjvg\":{\"children\":[],\"id\":\"CHART-has5jVHjvg\",\"meta\":{\"chartId\":473,\"height\":19,\"sliceName\":\"Total_Number\",\"sliceNameOverride\":\"Number of people involved:\",\"uuid\":\"c3aa7248-6ad1-492a-a5d1-551518cae9cc\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-JBGQkkCNqB\",\"COLUMN-Kbltb6Wcs5\",\"ROW-nY1OTu4EAK\",\"COLUMN-Sv6GPoJFWb\"],\"type\":\"CHART\"},\"COLUMN-Kbltb6Wcs5\":{\"children\":[\"ROW-nY1OTu4EAK\",\"CHART-UjSRHhcalP\"],\"id\":\"COLUMN-Kbltb6Wcs5\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-JBGQkkCNqB\"],\"type\":\"COLUMN\"},\"COLUMN-Sv6GPoJFWb\":{\"children\":[\"CHART-has5jVHjvg\"],\"id\":\"COLUMN-Sv6GPoJFWb\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-JBGQkkCNqB\",\"COLUMN-Kbltb6Wcs5\",\"ROW-nY1OTu4EAK\"],\"type\":\"COLUMN\"},\"COLUMN-tjC1N00wnq\":{\"children\":[\"CHART-h7s60N3Tmr\"],\"id\":\"COLUMN-tjC1N00wnq\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-JBGQkkCNqB\"],\"type\":\"COLUMN\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"ROW-JBGQkkCNqB\",\"ROW-GRDS9jrEA\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"French accidents involving kids in 2019\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-GRDS9jrEA\":{\"children\":[\"CHART-Dokrng1ROE\",\"CHART-ASIQdztcwa\"],\"id\":\"ROW-GRDS9jrEA\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-JBGQkkCNqB\":{\"children\":[\"COLUMN-tjC1N00wnq\",\"COLUMN-Kbltb6Wcs5\",\"CHART-K-j5m4aOlD\",\"CHART-MpWYbfjlJy\"],\"id\":\"ROW-JBGQkkCNqB\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-nY1OTu4EAK\":{\"children\":[\"COLUMN-Sv6GPoJFWb\"],\"id\":\"ROW-nY1OTu4EAK\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-JBGQkkCNqB\",\"COLUMN-Kbltb6Wcs5\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "fa.Accidents_Global",
+                            "datasource_type": "table",
+                            "id": 557,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"18\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_rojv38pwrl9_wgijs4j8q2p\", \"isExtra\": false, \"isNew\": false, \"operator\": \"<\", \"sqlExpression\": null, \"subject\": \"age\"}], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"40__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Date_Acc\", \"groupby\": [\"gravity\"], \"metrics\": [\"count\"], \"order_by_cols\": [], \"order_desc\": false, \"page_length\": 0, \"percent_metrics\": [\"count\"], \"query_mode\": \"aggregate\", \"row_limit\": \"5000000\", \"server_page_length\": 10, \"show_cell_bars\": true, \"table_filter\": false, \"table_timestamp_format\": \"smart_date\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"gravity\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 991, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"VAR_STRING\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(gravity)\", \"optionName\": \"metric_kf0hvztnbdc_75mqa6gvuci\", \"sqlExpression\": null}, \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 557, \"datasource_name\": \"Accidents_Global\", \"schema\": \"fa\", \"database_name\": \"fa\"}",
+                            "slice_name": "Gravity Table",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "fa.Accidents_Global",
+                            "datasource_type": "table",
+                            "id": 559,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"40__table\", \"date_filter\": false, \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"age_cat\", \"key\": \"zg1w35343\", \"label\": \"Age Category\", \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": true, \"clearable\": true, \"column\": \"gravity\", \"key\": \"gkwM6pIi_\", \"multiple\": true, \"searchAllOptions\": false}, {\"asc\": true, \"clearable\": true, \"column\": \"departement\", \"key\": \"hvnC2ddyI\", \"multiple\": true, \"searchAllOptions\": true}], \"granularity_sqla\": \"Date_Acc\", \"slice_id\": 559, \"time_grain_sqla\": \"P1D\", \"time_range\": \"2019-01-01 : 2019-12-31\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 559, \"datasource_name\": \"Accidents_Global\", \"schema\": \"fa\", \"database_name\": \"fa\"}",
+                            "slice_name": "FilterBox",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "fa.Accidents_Global",
+                            "datasource_type": "table",
+                            "id": 560,
+                            "params": "{\"adhoc_filters\": [], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"columns\": [\"vehicle_cat\", \"role\"], \"contribution\": true, \"datasource\": \"40__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Date_Acc\", \"groupby\": [\"age\"], \"label_colors\": {}, \"metrics\": [\"count\"], \"order_bars\": true, \"order_desc\": true, \"row_limit\": \"500000\", \"show_legend\": true, \"slice_id\": 560, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": {\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"age\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 989, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"LONGLONG\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": false, \"isNew\": false, \"label\": \"AVG(age)\", \"optionName\": \"metric_meegn5ymhyr_3dhk7m5nxgx\", \"sqlExpression\": null}, \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 560, \"datasource_name\": \"Accidents_Global\", \"schema\": \"fa\", \"database_name\": \"fa\"}",
+                            "slice_name": "RoleContribution",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "fa.Accidents_Global",
+                            "datasource_type": "table",
+                            "id": 563,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"googleCategory20c\", \"comparison_type\": \"values\", \"contribution\": false, \"datasource\": \"40__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Date_Acc\", \"groupby\": [\"surface\"], \"label_colors\": {\"<NULL>, Pedestrian\": \"#1FA8C9\", \"Bicycle, Driver\": \"#454E7C\", \"Bicycle, Passenger\": \"#5AC189\", \"Bike, Driver\": \"#FF7F44\", \"Bike, Passenger\": \"#666666\", \"Car, Driver\": \"#E04355\", \"Car, Passenger\": \"#FCC700\", \"Moped, Driver\": \"#A868B7\", \"Moped, Passenger\": \"#3CCCCB\", \"Normal\": \"#A1A6BD\", \"Other\": \"#FEC0A1\", \"Other, Driver\": \"#A38F79\", \"Other, Passenger\": \"#8FD3E4\", \"Snowy\": \"#B2B2B2\", \"Wet\": \"#ACE1C4\"}, \"line_interpolation\": \"linear\", \"metrics\": [\"count\"], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": \"500000\", \"show_brush\": \"auto\", \"show_legend\": true, \"slice_id\": 563, \"stacked_style\": null, \"time_grain_sqla\": \"P1W\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"area\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 563, \"datasource_name\": \"Accidents_Global\", \"schema\": \"fa\", \"database_name\": \"fa\"}",
+                            "slice_name": "PieRoadCat",
+                            "viz_type": "area"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "fa.Accidents_Global",
+                            "datasource_type": "table",
+                            "id": 471,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"\\\"96\\\"\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_p7dytm7tkun_8hnigq3zv8v\", \"isExtra\": false, \"isNew\": false, \"operator\": \"<\", \"sqlExpression\": null, \"subject\": \"departement\"}], \"autozoom\": true, \"color_picker\": {\"a\": 1, \"b\": 135, \"g\": 122, \"r\": 0}, \"color_scheme\": \"echarts5Colors\", \"datasource\": \"40__table\", \"dimension\": \"gravity\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"filter_nulls\": true, \"granularity\": null, \"granularity_sqla\": \"Date_Acc\", \"js_columns\": [], \"label_colors\": {}, \"legend_format\": null, \"legend_position\": \"tr\", \"mapbox_style\": \"mapbox://styles/mapbox/dark-v9\", \"max_radius\": 250, \"min_radius\": 1, \"multiplier\": 1, \"point_radius_fixed\": {\"type\": \"metric\", \"value\": \"count\"}, \"point_unit\": \"square_m\", \"row_limit\": \"500000\", \"slice_id\": 471, \"spatial\": {\"latCol\": \"latitude\", \"lonCol\": \"longitude\", \"type\": \"latlong\"}, \"time_grain_sqla\": null, \"time_range\": \"2019-01-01 : 2019-12-31\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viewport\": {\"altitude\": 1.5, \"bearing\": 0, \"height\": 638, \"latitude\": 46.809881912551724, \"longitude\": 6.353296512404933, \"maxPitch\": 60, \"maxZoom\": 20, \"minPitch\": 0, \"minZoom\": 0, \"pitch\": 0, \"position\": [0, 0, 0], \"width\": 1182, \"zoom\": 4.929300940325373}, \"viz_type\": \"deck_scatter\", \"remote_id\": 471, \"datasource_name\": \"Accidents_Global\", \"schema\": \"fa\", \"database_name\": \"fa\"}",
+                            "slice_name": "Accident_Map",
+                            "viz_type": "deck_scatter"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "fa.Accidents_Global",
+                            "datasource_type": "table",
+                            "id": 473,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"40__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Date_Acc\", \"header_font_size\": 0.4, \"metric\": \"count\", \"slice_id\": 473, \"subheader\": \"\", \"subheader_font_size\": 0.15, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \".3s\", \"remote_id\": 473, \"datasource_name\": \"Accidents_Global\", \"schema\": \"fa\", \"database_name\": \"fa\"}",
+                            "slice_name": "Total_Number",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "fa.Accidents_Global",
+                            "datasource_type": "table",
+                            "id": 475,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"18\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_7sw9vje2nqa_ieex1icm5e\", \"isExtra\": false, \"isNew\": false, \"operator\": \"<\", \"sqlExpression\": null, \"subject\": \"age\"}], \"all_columns_x\": \"Hour\", \"all_columns_y\": \"DayOfWeek\", \"bottom_margin\": \"auto\", \"canvas_image_rendering\": \"auto\", \"datasource\": \"40__table\", \"extra_form_data\": {\"append_form_data\": {}, \"custom_form_data\": {}, \"override_form_data\": {}}, \"granularity_sqla\": \"Date_Acc\", \"left_margin\": \"auto\", \"linear_color_scheme\": \"fire\", \"metric\": \"count\", \"normalize_across\": \"heatmap\", \"normalized\": true, \"row_limit\": 10000, \"show_legend\": false, \"show_perc\": false, \"show_values\": false, \"slice_id\": 475, \"sort_x_axis\": \"alpha_asc\", \"sort_y_axis\": \"alpha_asc\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"heatmap\", \"xscale_interval\": null, \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"yscale_interval\": null, \"remote_id\": 475, \"datasource_name\": \"Accidents_Global\", \"schema\": \"fa\", \"database_name\": \"fa\"}",
+                            "slice_name": "HeatMap_DayHour",
+                            "viz_type": "heatmap"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "Num_Acc",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 976,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "LONGLONG",
+                            "uuid": "9b38b2ab-7389-4eb5-8e91-f442fbc05e6c",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "Date_Acc",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 977,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "DATETIME",
+                            "uuid": "ec6bd6f1-bd25-4d2d-9236-072faf6f5213",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "DayOfWeek",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 978,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "VAR_STRING",
+                            "uuid": "a0ce4ba3-497f-41a2-93d8-3823882c1e35",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "Hour",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 979,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "LONGLONG",
+                            "uuid": "e7476f4f-f964-4692-97f0-7a036d691cc5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "departement",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 980,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "BLOB",
+                            "uuid": "01d5a366-e821-4f4b-9a1d-c1651ffd5eb8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 981,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "DOUBLE",
+                            "uuid": "27600e3a-5a75-4b67-a44a-f93ac74f6dd9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 982,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "DOUBLE",
+                            "uuid": "6d9aed25-0f6e-4a2e-824b-a3c6c1446eca",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "agglomeration",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 983,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "VAR_STRING",
+                            "uuid": "ab472176-cc58-4ec8-8bc7-2ba73ae2c874",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "road_category",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 984,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "VAR_STRING",
+                            "uuid": "2826ac5e-92dd-4ed0-aba4-1bb697be44b3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "max_speed",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 985,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "LONGLONG",
+                            "uuid": "492612ae-7eb4-4862-b851-7b4613399c02",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "surface",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 986,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "VAR_STRING",
+                            "uuid": "58593af2-feb6-4d34-9098-ef19fc286181",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "light_condition",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 987,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "VAR_STRING",
+                            "uuid": "c64a0301-6df2-467a-8b8d-25abe3107de6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "collision_type",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 988,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "VAR_STRING",
+                            "uuid": "c66dfbb1-c30b-4cb2-b894-aface8330350",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "age",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 989,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "LONGLONG",
+                            "uuid": "92e2b84f-2fa2-41c2-b271-65c8603158a8",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "role",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 990,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "VAR_STRING",
+                            "uuid": "5e9dd39d-6c28-44e0-be76-4f13a7b63392",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "gravity",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 991,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "VAR_STRING",
+                            "uuid": "e3216d3a-4ca3-417f-9f8b-9fd867b27ad1",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "sex",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 992,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "VAR_STRING",
+                            "uuid": "4478640c-2b24-49ca-9401-619cd40417d6",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "column_name": "vehicle_cat",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 993,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "VAR_STRING",
+                            "uuid": "bd5724fe-d65a-4a2c-966f-1b0c270022c5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:48:34"
+                            },
+                            "column_name": "age_cat",
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:48:34"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 994,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 40,
+                            "type": "VAR_STRING",
+                            "uuid": "5aa95e4f-2391-4479-8554-788a215d339f",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 3,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 2,
+                            "changed_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "created_by_fk": 2,
+                            "created_on": {
+                                "__datetime__": "2021-03-12T13:19:07"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 48,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 40,
+                            "uuid": "799f9de1-7a41-47ef-b13e-a8cfd83d84d3",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 40, \"database_name\": \"fa\"}",
+                "schema": "fa",
+                "sql": "SELECT \n\t-- Accident identification--\n\tc.Num_Acc\n\t,STR_TO_DATE(CONCAT(an,\"-\",mois,\"-\",jour,\" \",hrmn),'%Y-%m-%d %H:%i') as Date_Acc\n\t,CONCAT(WEEKDAY(CONCAT(an,\"-\",mois,\"-\",jour)),\" - \",DAYNAME(CONCAT(an,\"-\",mois,\"-\",jour))) as DayOfWeek\n\t,CAST(left(hrmn,2) as UNSIGNED) as Hour\n\t-- Location --\n\t,c.dep as departement\n\t,c.lat as latitude\n\t,c.long\tas longitude\n\t-- Location Description --\n\t,fdagg.description as agglomeration\n\t,fdcatr.description as road_category\n\t,l.vma as max_speed\n\t-- Location Conditions --\n\t,fdsurf.description2 as surface\n\t-- accident conditions --\n\t,fdlum.description as light_condition\n\t,fdcol.description as collision_type\n\t-- user\n\t,(c.an - u.an_nais) as age\n\t,CASE WHEN (c.an - u.an_nais) < 14 THEN \"0-14\" WHEN (c.an - u.an_nais) < 18 THEN \"14-18\" ELSE \">18\" END AS age_cat\n\t,fdcatu.description as role\n\t,fdgrav.description as gravity\n\t,fdsexe.description as sex\n\t-- vehicle\n\t,fdcatv.description2 as vehicle_cat\nFROM \n\tcaracteristiques c \n\tjoin lieux l on c.Num_Acc = l.Num_Acc \n\tjoin usagers u on (c.Num_Acc = u.Num_Acc) \n\tleft join vehicules v on (u.Num_Acc = v.Num_Acc and u.num_veh = v.num_veh and u.catu <> 3)\n\tleft join field_description fdagg on (c.agg = fdagg.value and fdagg.colname = 'agg')\n\tleft join field_description fdlum on (c.lum = fdlum.value and fdlum.colname = 'lum')\n\tleft join field_description fdcol on (c.col = fdcol.value and fdcol.colname = 'col')\n\tleft join field_description fdcatr on (l.catr = fdcatr.value and fdcatr.colname = 'catr')\n\tleft join field_description fdsurf on (l.surf = fdsurf.value and fdsurf.colname = 'surf')\n\tleft join field_description fdcatu on (u.catu = fdcatu.value and fdcatu.colname = 'catu')\n\tleft join field_description fdgrav on (u.grav = fdgrav.value and fdgrav.colname = 'grav')\n\tleft join field_description fdsexe on (u.sexe = fdsexe.value and fdsexe.colname = 'sexe')\n\tleft join field_description fdcatv on (v.catv = fdcatv.value and fdcatv.colname = 'catv')",
+                "table_name": "Accidents_Global",
+                "template_params": null
+            }
+        }
+    ]
+}
