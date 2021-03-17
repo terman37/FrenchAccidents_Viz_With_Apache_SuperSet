@@ -1,12 +1,12 @@
-# Apache SuperSet overview
+# Apache SuperSet analysing French kids accidents
 
-intro
+![](pictures/superset_logo.png)
 
-Apache SuperSet is an open source software ......
+Apache Superset is a modern data exploration and visualization platform allowing to create nice and interactive dashboard for data visualization.
 
+I wanted to test its capabilities through analysis of open dataset regarding road accidents in France (especially involving kids)
 
-
-<img src="/home/terman37/MyGit/VIZ_French_Accidents/pictures/result.jpg" style="zoom:50%;" />
+<img src="pictures/result.jpg" style="zoom:50%;" />
 
 ## Installation
 
@@ -107,7 +107,7 @@ In the datasets view click on edit button at the end of the dataset row
 
 If you need to have more than one table, you manually create a SQL query (using SQL Lab Editor)
 
- 
+ ![](pictures/sql_lab.png)
 
 
 

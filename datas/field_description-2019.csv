@@ -1,0 +1,279 @@
+"colname";"value";"description";"description2"
+lum;1;Full Day;
+lum;2;Twilight or Dawn;
+lum;3;Night without public lighting;
+lum;4;Night with public lighting not lit;
+lum;5;Night with public lighting on;
+agg;1;Rural;
+agg;2;Urban or Semi-Urban;
+int;1;Out of intersection;
+int;2;X Intersection;
+int;3;T Intersection;
+int;4;Y Intersection;
+int;5;"4+ branchs Intersection";
+int;6;Roundabout;
+int;7;Place;
+int;8;Level crossing;
+int;9;Other;
+atm;-1;Unknown;
+atm;1;Normal;
+atm;2;Light rain;
+atm;3;Heavy rain;
+atm;4;Snow - Hail;
+atm;5;Fog - Smoke;
+atm;6;Strong Wind - Storm;
+atm;7;Dazzling weather;
+atm;8;Cloudy weather;
+atm;9;Other;
+col;-1;Unknown;
+col;1;"2 vehicles - frontal";
+col;2;"2 vehicles - from behind";
+col;3;"2 vehicles - from the side";
+col;4;"3 or more vehicles - in chain";
+col;5;"3 or more vehicles - multple collisions";
+col;6;Other;
+col;7;No collision;
+catr;1;Highway;
+catr;2;National Road;
+catr;3;Departmental Road;
+catr;4;Municipal Road;
+catr;5;Off public network;
+catr;6;Parking lot;
+catr;7;Urban metropolis roads;
+catr;9;Other;
+circ;-1;Unknown;
+circ;1;One-way;
+circ;2;Two-ways;
+circ;3;Dual Carriageway;
+circ;4;With variable assignment ways;
+vosp;-1;Unknown;
+vosp;0;;
+vosp;1;Bike path;
+vosp;2;Bike lane;
+vosp;3;Reserved lane;
+prof;-1;Unknown;
+prof;1;Flat;
+prof;2;Slope;
+prof;3;Slope top;
+prof;4;Slope bottom;
+plan;-1;Unknown;
+plan;1;Straight;
+plan;2;Left curve;
+plan;3;Right curve;
+plan;4;S curve;
+surf;-1;Unknown;Other
+surf;1;Normal;Normal
+surf;2;Wet;Wet
+surf;3;Puddle;Other
+surf;4;Flooded;Other
+surf;5;Snowy;Snowy
+surf;6;Muddy;Other
+surf;7;Icy;Snowy
+surf;8;Oily;Other
+surf;9;Other;Other
+infra;-1;Unknown;
+infra;0;None;
+infra;1;Underground - Tunnel;
+infra;2;Bridge;
+infra;3;Interchange ramp;
+infra;4;Railway;
+infra;5;Arranged crossroad;
+infra;6;Pedestrian area;
+infra;7;Toll zone;
+infra;8;Roadwork;
+infra;9;Other;
+situ;-1;Unknown;
+situ;0;None;
+situ;1;On road;
+situ;2;Emergency lane;
+situ;3;On road shoulder;
+situ;4;On sidewalk;
+situ;5;On Bike lane;
+situ;6;On special lane;
+situ;8;Other;
+senc;-1;Unknown;
+senc;0;;
+senc;1;Increasing Address;
+senc;2;Decreasing Address;
+senc;3;No identification;
+catv;0;Unknown;Other
+catv;1;Bicycle;Bicycle
+catv;2;Moped;Moped
+catv;3;Cart;Car
+catv;7;Car;Car
+catv;10;Commercial vehicle;Car
+catv;13;Truck <= 7.5T;Other
+catv;14;Truck > 7.5T;Other
+catv;15;Truck + trailer;Other
+catv;16;Road tractor;Other
+catv;17;Road tractor + semi-trailer;Other
+catv;20;Special vehicle;Other
+catv;21;Farm tractor;Other
+catv;30;Scooter < 50cm3;Moped
+catv;31;Motorbike > 50 & < 125cm3 ;Bike
+catv;32;Scooter > 50 & < 125cm3;Bike
+catv;33;Motorbike > 125cm3 ;Bike
+catv;34;Scooter > 125cm3;Bike
+catv;35;Quad < 50cm3;Moped
+catv;36;Quad > 50cm3;Bike
+catv;37;Bus;Other
+catv;38;Bus;Other
+catv;39;Train;Other
+catv;40;Tram;Other
+catv;41;"3 Wheels < 50cm3";Moped
+catv;42;"3 Wheels > 50 & < 125cm3";Bike
+catv;43;"3 Wheels > 125cm3";Bike
+catv;50;Light Personal travel vehicle - with engine;Bicycle
+catv;60;Light Personal travel vehicle - without engine;Bicycle
+catv;80;Electrical bicycle;Bicycle
+catv;99;Other;Other
+obs;-1;Unknown;
+obs;0;;
+obs;1;Parked vehicle;
+obs;2;Tree;
+obs;3;Metal barrier;
+obs;4;Concrete barrier;
+obs;5;Other kind barrier;
+obs;6;"Building; wall; bridge pillar";
+obs;7;Road sign support;
+obs;8;Pole;
+obs;9;Urban property;
+obs;10;Parapet;
+obs;11;Shelter;
+obs;12;Curb step;
+obs;13;"Ditch; slope";
+obs;14;Other fixed obstacle on road;
+obs;15;Other fixed obstacle on sidewalk;
+obs;16;No obstacle;
+obs;17;Nozzle;
+obsm;-1;Unknown;
+obsm;0;;
+obsm;1;Pedestrian;
+obsm;2;Vehicle;
+obsm;4;Rail vehicle;
+obsm;5;Domestic animal;
+obsm;6;Wild animal;
+obsm;9;Other;
+choc;-1;Unknown;
+choc;0;;
+choc;1;Front;
+choc;2;Front Right;
+choc;3;Front Left;
+choc;4;Back;
+choc;5;Back right;
+choc;6;Back left;
+choc;7;Right;
+choc;8;Left;
+choc;9;Multiple - roll over;
+manv;-1;Unknown;
+manv;0;;
+manv;1;Not changing lane;
+manv;2;"Same direction; same lane";
+manv;3;Between lanes;
+manv;4;Reverse;
+manv;5;Wrong way;
+manv;6;Crossing the median;
+manv;7;"In the bus lane; same direction";
+manv;8;"In the bus lane; opposite direction";
+manv;9;During insertion;
+manv;10;While U-turn;
+manv;11;changing lane - to the left;
+manv;12;changing lane - to the right;
+manv;13;Swerving to the left;
+manv;14;Swerving to the right;
+manv;15;Turning left;
+manv;16;Turning right;
+manv;17;Passing on the left;
+manv;18;Passing on the right;
+manv;19;Crossing the raod;
+manv;20;Parking;
+manv;21;Avoiding obstacle;
+manv;22;Opening the door;
+manv;23;Stopped (not parked);
+manv;24;Parked (with people inside);
+manv;25;On the sidewalk;
+manv;26;Other;
+motor;-1;Unknown;
+motor;0;;
+motor;1;Fuel;
+motor;2;Electric Hybride;
+motor;3;Electrique;
+motor;4;Hydrogene;
+motor;5;Human;
+motor;6;Other;
+catu;1;Driver;
+catu;2;Passenger;
+catu;3;Pedestrian;
+grav;1;"0-No injury";
+grav;2;"3-Killed";
+grav;3;"2-Severely injured";
+grav;4;"1-Slightly injured";
+sexe;1;Male;
+sexe;2;Female;
+trajet;-1;Unknown;
+trajet;0;;
+trajet;1;Home - Work;
+trajet;2;Home - School;
+trajet;3;Shopping;
+trajet;4;Professional use;
+trajet;5;Recreational;
+trajet;9;Other;
+secu1;-1;Unknown;
+secu1;0;Nothing;
+secu1;1;seat belt;
+secu1;2;helmet;
+secu1;3;children device;
+secu1;4;Yellow jacket;
+secu1;5;Airbag;
+secu1;6;gloves;
+secu1;7;Gloves + airbag;
+secu1;8;;
+secu1;9;Other;
+secu2;-1;Unknown;
+secu2;0;Nothing;
+secu2;1;seat belt;
+secu2;2;helmet;
+secu2;3;children device;
+secu2;4;Yellow jacket;
+secu2;5;Airbag;
+secu2;6;gloves;
+secu2;7;Gloves + airbag;
+secu2;8;;
+secu2;9;Other;
+secu3;-1;Unknown;
+secu3;0;Nothing;
+secu3;1;seat belt;
+secu3;2;helmet;
+secu3;3;children device;
+secu3;4;Yellow jacket;
+secu3;5;Airbag;
+secu3;6;gloves;
+secu3;7;Gloves + airbag;
+secu3;8;;
+secu3;9;Other;
+locp;-1;Unknown;
+locp;0;;
+locp;1;> 50m from pedestrian crossing;
+locp;2;< 50m from pedestrian crossing;
+locp;3;on pedestrain crossing - no light;
+locp;4;on pedestrain crossing - with light;
+locp;5;on sidewalk;
+locp;6;on road side;
+locp;7;on road shelter;
+locp;8;on the side lane;
+locp;9;Other;
+actp;-1;Unknown;
+actp;0;;
+actp;1;walking in same way as vehicle;
+actp;2;walking opposite way as vehicle;
+actp;3;Crossing the median;
+actp;4;covered;
+actp;5;Playing - running;
+actp;6;with animal;
+actp;8;Other;
+actp;7;going in/out vehicle;
+actp;9;Other;
+etatp;-1;Unknown;
+etatp;1;Alone;
+etatp;2;with somebody;
+etatp;3;In a group;
