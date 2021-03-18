@@ -129,11 +129,11 @@ A lot of nice visualizations are available, lets' checkout some of them
 
 ### BigNumber
 
-<img src="pictures/bignumber.png" style="zoom:50%;" /><img src="pictures/bignumber2.png" style="zoom:50%;" />
+<img src="pictures/bignumber.png" style="zoom:50%;" />
 
 ### Table
 
-<img src="pictures/table.png" style="zoom:50%;" /><img src="pictures/table2.png" style="zoom:50%;" />
+<img src="pictures/table.png" style="zoom:50%;" />
 
 ### Map ScatterPlot using MapBox
 
@@ -154,23 +154,61 @@ echo MAPBOX_API_KEY=<you token> > docker/.env
 
 
 
-<img src="pictures/map.png" style="zoom:50%;" /><img src="pictures/map2.png" style="zoom:50%;" />
+<img src="pictures/map.png" style="zoom:50%;" />
 
 
 
 ### Area Chart
 
-<img src="pictures/area.png" style="zoom:50%;" /><img src="pictures/area2.png" style="zoom:50%;" />
+<img src="pictures/area.png" style="zoom:50%;" />
 
 ### Bar Chart
 
-<img src="pictures/barchart.png" style="zoom:50%;" /><img src="pictures/barchart2.png" style="zoom:50%;" />
+<img src="pictures/barchart.png" style="zoom:50%;" />
 
 ### HeatMap
 
-<img src="pictures/heatmap.png" style="zoom:50%;" /><img src="pictures/heatmap2.png" style="zoom:50%;" />
+<img src="pictures/heatmap.png" style="zoom:50%;" />
 
  
 
+### Dashboards
+
+Dashboard UI is quite simple:
+
+- create your layout with components: row, column, tabs ...
+
+- Place charts on it
+- Resize elements
+
+<img src="pictures/dashboard_edit.png" style="zoom:50%;" />
 
 
+
+<img src="pictures/result.jpg" style="zoom:50%;" />
+
+## Comments on Superset
+
+Apache Superset is really a nice and easy tool for data visualization.
+
+
+
+It's super easy to setup and feature some advanced capabilities:
+
+- Support for many databases using SQLAlchemy: MySQL, Postgres, Oracle, MS SQL Server, MariaDB, Redshift ...
+- user/roles/permission granularity
+- Can use OpenID, Oauth, LDAP authentication
+- Interactive SQL editor allowing full control with exposed datas
+- Can perform some time series predictive analysis using `fbprophet`
+
+- Custom visualization can be developped and added (not tested)
+
+- Can run on kubernetes and scale with needs.
+
+
+
+Maybe, the less positive point for me, is the fact that chart creation UI is not always coherent. Depending on the chosen visualization, the visual settings for example will be in the DATA or in the CUSTOMIZE tab.  Or you may find some grouping options not available on some chart types whereas it would have make perfect sense.
+
+
+
+I would say, even if it's not yet at Tableau level, it can be an alternative in some use cases, considering the fact Superset is open source.
