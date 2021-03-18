@@ -10,6 +10,8 @@ I wanted to test its capabilities through analysis of open dataset regarding roa
 
 ## Installation
 
+- Version: 0.999.0dev
+
 ### Run with docker compose
 
 [Clone Superset's repo](https://github.com/apache/superset) in your terminal with the following command:
@@ -77,7 +79,7 @@ I made a script to import datas to mysql:
 python src/import.py
 ```
 
-![import_to_mysql](/home/terman37/MyGit/VIZ_French_Accidents/pictures/import_to_mysql.png)
+![import_to_mysql](pictures/import_to_mysql.png)
 
 ## Give Superset access to datas
 
@@ -95,13 +97,13 @@ in menu: data/databases click on `+ DATABASE` and fill in necessary informations
 
 in menu: data/datasets click on `+ DATASET and fill in necessary informations:
 
-<img src="pictures/add_dataset.png" alt="add_dataset" style="zoom: 80%;" /><img src="/home/terman37/MyGit/VIZ_French_Accidents/pictures/datasets.png" alt="datasets" style="zoom: 80%;" />
+<img src="pictures/add_dataset.png" alt="add_dataset" style="zoom: 80%;" /><img src="pictures/datasets.png" alt="datasets" style="zoom: 80%;" />
 
 ### Add calculated field
 
 In the datasets view click on edit button at the end of the dataset row
 
-![add_calculated_column](/home/terman37/MyGit/VIZ_French_Accidents/pictures/add_calculated_column.png)
+![add_calculated_column](pictures/add_calculated_column.png)
 
 ### Add Virtual Dataset
 
@@ -109,7 +111,7 @@ If you need to have more than one table, you manually create a SQL query (using 
 
  ![](pictures/sql_lab.png)
 
-
+Then by clicking Explore, you will be able to save it as a virtual dataset and use it to create reports
 
 ## Dashboards & Charts
 
@@ -121,33 +123,54 @@ A lot of nice visualizations are available, lets' checkout some of them
 
 
 
+### FilterBox
 
-
-### Table
-
-
+<img src="pictures/filterbox.png" style="zoom:50%;" />
 
 ### BigNumber
 
+<img src="pictures/bignumber.png" style="zoom:50%;" /><img src="pictures/bignumber2.png" style="zoom:50%;" />
 
+### Table
+
+<img src="pictures/table.png" style="zoom:50%;" /><img src="pictures/table2.png" style="zoom:50%;" />
 
 ### Map ScatterPlot using MapBox
 
+**Before using any visualization using MapBox you need to specify you token to access MapBox API**
+
+Create an account on Mapbox.com and create a token.
+
+<img src="pictures/mapbox.png" style="zoom:50%;" />
+
+Copy the token and add it in your superset `.env` file
+
+```
+cd superset
+echo MAPBOX_API_KEY=<you token> > docker/.env
+```
 
 
-### Bar Chart
+
+
+
+<img src="pictures/map.png" style="zoom:50%;" /><img src="pictures/map2.png" style="zoom:50%;" />
 
 
 
 ### Area Chart
 
+<img src="pictures/area.png" style="zoom:50%;" /><img src="pictures/area2.png" style="zoom:50%;" />
 
+### Bar Chart
+
+<img src="pictures/barchart.png" style="zoom:50%;" /><img src="pictures/barchart2.png" style="zoom:50%;" />
 
 ### HeatMap
 
+<img src="pictures/heatmap.png" style="zoom:50%;" /><img src="pictures/heatmap2.png" style="zoom:50%;" />
 
-
-### FilterBox
+ 
 
 
 
